@@ -1,0 +1,13 @@
+
+*.o
+*.exe
+*.a
+.sconsign.dblite
+
+
+/document
+/Debug
+/Release
+
+.DS_Store
+

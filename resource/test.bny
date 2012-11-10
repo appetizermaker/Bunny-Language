@@ -1,0 +1,11 @@
+
+
+var a= 10
+var b =20
+var c
+
+c = a+ b
+
+if c == 30
+	print("\'ok\"")
+	print ("abc")
