@@ -20,6 +20,7 @@ BunnyLanguage::~BunnyLanguage()
 /// 파일을 읽고 해석하여, 실행함
 int BunnyLanguage::run(const string &filePath)
 {
+	/*
 	std::ifstream fin;
 	fin.open(filePath.c_str());
 	if (!fin)
@@ -35,7 +36,7 @@ int BunnyLanguage::run(const string &filePath)
 	}
 
 	fin.close();
-
+	*/
 	return 0;
 }
 
