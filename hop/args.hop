@@ -1,0 +1,16 @@
+
+func eat(food, count = 1)
+    print("Oh! I love ", food, "!!")
+    print("yummy!! " * count)
+
+func sayHi(buddy)
+    print("Hi, ", buddy)
+
+func meetFriends(args)
+    for buddy in args
+        sayHi(buddy)
+        
+
+
+print("Oh, there are my friends!")
+meetFriends("Frog", "Lady bug", "Squirrel", "Fish")

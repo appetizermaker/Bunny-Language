@@ -1,0 +1,77 @@
+
+
+// class name's first alphabet must be upper case.
+// no '_'
+class Bunny
+    enum State
+        NORMAL
+        HUNGRY
+        FULL
+
+    // field name consists of lower case alphabet, '_', number(not first) 
+    name_(yes, no)           // first is getter option. second is setter option
+    state_(yes, no)
+    address_(yes, yes)
+    age_(yes, setAge)
+    secret_of_bunny_(no, no)
+    secret_of_bunny2_        // default is (no, no)
+    
+    // method name's first alphabet of first word must be lower case.
+    // method name's first alphabet of else word must be upper case.
+    // no '_'
+    func eat(food)      // func is accessible at in/outside of class
+        print(food, '!! Mmm... yummy!')
+        state_ = State.Full
+        
+    sub setAge(value)   // sub is accessible at only inside of class
+        age_ = value
+    
+    func hop()
+        print('hop! hop!')
+        becomeHungry()
+    
+    sub becomeHungry()
+        state_ = State.HUNGRY
+        
+        
+        
+var b = new Bunny()
+
+var name = b.name               // possible. has getter
+b.name = 'rabbit'               // compile error. no setter
+
+var state = b.state             // possible. has getter
+b.state = Bunny.State.Normal    // compile error. no setter
+
+var addr  = b.address           // possible. has getter
+b.address = 'bunny hole'        // possible. has setter
+
+var age   = b.age
+b.age     = 2                   // possible. has setter function
+
+var sec = b.secret_of_bunny_    // compile error. no getter
+b.secret_of_bunny_ = 'carrot'   // compile error. no setter
+var sec2 = b.secret_of_bunny2_  // compile error. no getter
+b.secret_of_bunny2_ = 'carrot'  // compile error. no setter
+
+b.eat('carrot')                 // possible. func is accessible method
+b.setAge(8)                     // compile error. sub is not accessible
+b.hop()                         // possible. hop() is func
+b.becomeHungry()                // compile error. becomeHungry() is sub.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

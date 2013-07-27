@@ -1,0 +1,22 @@
+
+
+// enum name consists of upper case alphabet, '_' and number(not first)
+enum Food
+    CANNOT_EAT
+    CARROT      = 10
+    APPLE
+    BANANA      = 20
+    CLOVER
+
+
+func printLunch(food)
+    var lunch = Food.CARROT
+    print(lunch)
+    print(int(lunch))
+
+
+printLunch(CANNOT_EAT)
+printLunch(CARROT)
+printLunch(APPLE)
+printLunch(BANANA)
+printLunch(CLOVER)

@@ -1,0 +1,13 @@
+
+
+print("Today, I'm your teacher. I will ask you question about addition.")
+print('1 + 1 = ?')
+
+var your_answer = input()
+
+if your_answer == 2
+    print("That's right! Good job!")
+elif your_answer < 2
+    print("The correct answer is bigger than ", your_answer)
+else
+    print("The correct answer is smaller than ", your_answer)

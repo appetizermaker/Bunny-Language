@@ -1,0 +1,9 @@
+
+import random
+
+print('Yesterday, I had a dream about lottery numbers.')
+print('Write down these numbers.')
+
+for i in 1 ~ 10
+    var random_value = rand()
+    print(random_value)

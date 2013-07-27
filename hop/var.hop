@@ -1,0 +1,19 @@
+
+print("'var' has value. And you can get, change or use it.")
+
+var a = 1
+var b = 2
+
+print('a = ', a)
+print('b = ', b)
+print('a + b = ', a + b)
+
+a = 3
+b = 4
+
+print('---- a and b was changed!! ----')
+print('a = ', a)
+print('b = ', b)
+
+var sum = a + b;
+print('a + b = ', sum)

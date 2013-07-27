@@ -1,0 +1,26 @@
+
+import random
+
+
+print("Let's play simple number game")
+print('I will select a number between 0 and 50. Guess what it is.')
+
+var number = rand(0, 50)
+
+while true
+    var answer = input()
+    
+    if answer.isNumber() == false
+        print('Hey, that is not a number. Focus.')
+        continue
+    
+    if answer == number
+        print('Right! Wow!! You are genius!')
+        break
+        
+    elif answer < number
+        print('The number is bigger than ', answer)
+    else
+        print('The number is smaller than ', answer)
+
+print('It was funny, right?')

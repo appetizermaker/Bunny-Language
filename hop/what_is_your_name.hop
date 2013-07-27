@@ -1,0 +1,6 @@
+
+print("Hi, I'm bunny. What's your name?")
+
+var his_name = input()
+
+print("Hello, ", his_name, ". Nice to meet you.")

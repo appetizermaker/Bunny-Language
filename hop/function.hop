@@ -1,0 +1,14 @@
+
+func plus(a, b)
+    return a + b
+
+
+print("I'm the genius of addition. Ask me something.")
+
+print("first value : ", no_nl)
+var first = input()
+
+print("second value : ", no_nl)
+var second = input()
+
+print("The answer is ", plus(first, second))

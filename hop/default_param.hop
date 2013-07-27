@@ -1,0 +1,14 @@
+
+func eat(food, count = 1)
+    print("Oh! I love ", food, "!!")
+    
+    for i in 1 ~ count
+        print("yummy!!")
+
+
+print("I'm very hungry. Let's eat something.")
+
+eat("clover")
+eat("banana", 1)
+eat("apple", 2)
+eat("carrot", 3)

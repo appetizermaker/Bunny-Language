@@ -1,0 +1,10 @@
+
+print("Ho hum. I'm sleepy. Wake me up when you need me.")
+print('Just say, "hey".')
+
+var your_word = ''
+while your_word != 'hey'
+    print('zzz...')
+    your_word = input()
+    
+print('Oh, I woke up already. Did you miss me?')
