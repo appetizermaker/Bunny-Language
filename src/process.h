@@ -11,16 +11,16 @@
 namespace bunnylang {
 
 class Process : public Object {
-  // field
+	// field
 private:
-  std::vector<std::shared_ptr<Thread> > threads_;
+	std::vector<std::shared_ptr<Thread> > threads_;
 
-  // method
+	// method
 public:
-  Process();
-  ~Process();
+	Process();
+	~Process();
 
-  // getter/setter
+	// getter/setter
 public:
 };
 

@@ -10,15 +10,18 @@
 namespace bunnylang {
 
 class Thread : public Object {
-  // field
+	// field
 private:
+	vector<Value> stack_;		///< func, start_lable, params, local vars
+	vector<int> start_stack_idx_;
 
-  // method
+
+	// method
 public:
-  Thread();
-  ~Thread();
+	Thread();
+	~Thread();
 
-  // getter/setter
+	// getter/setter
 public:
 };
 
