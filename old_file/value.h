@@ -185,24 +185,24 @@ public:
 };
 
 
-class Dictionary : public Object {
-	// field
-private:
-	unordered_map<Value, Value> map_;
-
-	// method
-public:
-	Value& operator [] (const Value &key) {
-		return map_[key];
-	}
-
-	bool HasValue(const Value &key) {
-		return map_.find(key) != map_.end();
-	}
-
-	// getter/setter
-public:
-};
+//class Dictionary : public Object {
+//	// field
+//private:
+//	unordered_map<Value, Value> map_;
+//
+//	// method
+//public:
+//	Value& operator [] (const Value &key) {
+//		return map_[key];
+//	}
+//
+//	bool HasValue(const Value &key) {
+//		return map_.find(key) != map_.end();
+//	}
+//
+//	// getter/setter
+//public:
+//};
 
 
 class Class : public Object {
